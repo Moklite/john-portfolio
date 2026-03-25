@@ -122,6 +122,15 @@ h1 {
   gap: 60px;
 }
 
+.contact-centered {
+  padding: 60px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.justify-center { justify-content: center; }
+.mt-8 { margin-top: 2rem; }
+
 .btn-whatsapp {
   display: inline-block;
   background: var(--whatsapp-green);

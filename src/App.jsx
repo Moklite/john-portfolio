@@ -117,23 +117,18 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="contact-section">
         <div className="container">
-          <div className="glass-card contact-grid">
+          <div className="glass-card contact-centered text-center">
             <div className="contact-info">
+              <span className="overline">CONTACT</span>
               <h2>Let's Work Together</h2>
               <div className="contact-details mt-4">
                 <p>📧 johntolu28@gmail.com</p>
                 <p>📞 +234 812 908 3966</p>
                 <p>📍 Lagos, Nigeria</p>
               </div>
-              <a href={whatsappLink} className="btn-whatsapp mt-4">Chat on WhatsApp</a>
-            </div>
-            <div className="contact-form">
-              <form>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="Your Email" />
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit" className="btn-primary">Send Message</button>
-              </form>
+              <div className="flex justify-center mt-8">
+                <a href={whatsappLink} className="btn-whatsapp">Chat on WhatsApp</a>
+              </div>
             </div>
           </div>
         </div>
